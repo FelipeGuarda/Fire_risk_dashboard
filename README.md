@@ -79,12 +79,10 @@ The project is distributed with a Conda environment file (environment.yml) ensur
 
 To recreate the environment:
 
-````bash
-```
+```bash
 conda env create -f environment.yml
 conda activate fire_risk_dashboard
 streamlit run app.py
-```
 ```
 
 The file specifies Python 3.11 and the following key dependencies:
@@ -104,4 +102,5 @@ streamlit, plotly, pydeck, pandas, numpy, requests, and pyproj.
 - Automated data archiving and alert system for high-risk thresholds.
 
 - Multi-year analysis of historical trends using ERA5 reanalysis data.
+
 
